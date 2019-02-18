@@ -8,6 +8,7 @@ import {GameROMs, DemoROMs} from './urlImports';
 import tobuTobuGirlImage from './ROMs/tobutobugirl/tobutobugirl.png';
 import backToColorImage from './ROMs/back-to-color/back-to-color.png';
 import libbetImage from './ROMs/libbet/libbet.png';
+import dinosOfflineAdventureImage from './ROMs/dinos-offline-adventure/dinos-offline-adventure.png';
 
 export const openSourceROMs = {
   games: {
@@ -24,7 +25,25 @@ export const openSourceROMs = {
           </p>
         </div>
       )
-    }
+    },
+    dinosOfflineAdventure: {
+      title: "Dino's Offline Adventure",
+      url: GameROMs.DinosOfflineAdventure,
+      image: dinosOfflineAdventureImage,
+      link: 'https://gaming-monster.itch.io/dinos-offline-adventure',
+      infoElement: (
+        <div>
+          <p>
+            Dino's Offline Adventure is a port of the modern classic built into Chrome the web browser.
+
+            Built as our first Gameboy game and developed using the Gameboy Development Kit (GBDK) this simple game is even more of a challenge on the smaller Gameboy screen.
+          </p>
+          <p>
+            P.S <a href="https://www.youtube.com/channel/UCMMhSfBStEti-Lqzs30HYWw" target="_blank">The developer has an awesome Game Boy Development Youtube Channel</a>
+          </p>
+        </div>
+      )
+    },
     libbet: {
       title: 'Libbet and the Magic Floor',
       url: GameROMs.Libbet,

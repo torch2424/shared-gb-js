@@ -4,9 +4,11 @@
 
 import tobuTobuGirl from './ROMs/tobutobugirl/tobutobugirl.gb';
 import libbet from './ROMs/libbet/libbet.gb';
+import DinosOfflineAdventure from './ROMs/dinos-offline-adventure/dinos-offline-adventure.gb';
 export const GameROMs = {
   TobuTobuGirl,
-  Libbet
+  Libbet,
+  DinosOfflineAdventure
 };
 
 import backToColor from './ROMs/back-to-color/back-to-color.gbc';
