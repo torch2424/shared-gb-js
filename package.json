@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/torch2424/shared-gb-js.git"
@@ -15,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/torch2424/shared-gb-js/issues"
   },
-  "homepage": "https://github.com/torch2424/shared-gb-js#readme"
+  "homepage": "https://github.com/torch2424/shared-gb-js#readme",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "prettier": "1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
 }
