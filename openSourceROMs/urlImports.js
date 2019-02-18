@@ -16,7 +16,7 @@ export const DemoROMs = {
   BackToColor
 };
 
-import waveform from './ROMs/waveform/waveform';
+import waveform from './ROMs/waveform/waveform.gb';
 export const ToolROMs = {
   waveform
 }
