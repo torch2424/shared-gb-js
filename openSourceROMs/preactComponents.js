@@ -2,7 +2,7 @@
 import { h } from 'preact';
 
 // Import our ROMs
-import {GameROMs, DemoROMs, toolROMs} from './urlImports';
+import {GameROMs, DemoROMs, ToolROMs} from './urlImports';
 
 // Import our ROM images
 import tobuTobuGirlImage from './ROMs/tobutobugirl/tobutobugirl.png';
