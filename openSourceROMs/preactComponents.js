@@ -2,13 +2,14 @@
 import { h } from 'preact';
 
 // Import our ROMs
-import {GameROMs, DemoROMs} from './urlImports';
+import {GameROMs, DemoROMs, toolROMs} from './urlImports';
 
 // Import our ROM images
 import tobuTobuGirlImage from './ROMs/tobutobugirl/tobutobugirl.png';
 import backToColorImage from './ROMs/back-to-color/back-to-color.png';
 import libbetImage from './ROMs/libbet/libbet.png';
 import dinosOfflineAdventureImage from './ROMs/dinos-offline-adventure/dinos-offline-adventure.png';
+import waveformImage from './ROMs/waveform/waveform.png';
 
 export const openSourceROMs = {
   games: {
@@ -72,6 +73,26 @@ export const openSourceROMs = {
         </div>
       )
     }
+  },
+  tools: {
+    waveform: {
+      title: 'waveform',
+      url: ToolROMs.waveform,
+      image: waveformImage,
+      link: 'https://github.com/dannye/waveform-gb',
+      infoElement: (
+        <div>
+          <p>
+            This program visualizes the wave form used by the wave channel.
+            The wave form can be edited freely and playback of the wave is updated immediately.
+
+            Up to 8 custom wave forms can be saved.
+            There are 8 built-in wave forms that can be loaded at any time.
+          </p>
+        </div>
+      )
+    }
+
   }
 };
 
