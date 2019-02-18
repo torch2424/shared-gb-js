@@ -48,7 +48,7 @@ export const openSourceROMs = {
     libbet: {
       title: 'Libbet and the Magic Floor',
       url: GameROMs.Libbet,
-      image: libettImage,
+      image: libetImage,
       link: 'https://github.com/pinobatch/libbet',
       infoElement: (
         <div>
